@@ -1,0 +1,4 @@
+'The goal of this site is to provide a set of materials in support of my Python for Informatics: Exploring Information book to allow you to learn Python on your own. This page serves as an outline of the materials to support the textbook.
+New: The Python 3 version of the book is now available. Over the next few months, the slides, and lecture recordings will be updated to be Python 3. We will keep all the Python 2 material as archives once the Python 3 material is complete.
+You can download the exercises, audio, and video lectures to your local computer so you can play them locally. This can be done with either a Right-Click or a Control-Click in most browsers.
+me me me me me me me me me me me 
