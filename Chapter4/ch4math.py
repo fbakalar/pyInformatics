@@ -20,3 +20,6 @@ print(height)
 degrees = 45
 radians = degrees / 360.0 * 2 * math.pi
 print 'sine after convert degrees =', math.sin(radians)
+
+# print square root 4 / 2
+print math.sqrt(4) / 2.0
