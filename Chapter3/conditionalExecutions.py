@@ -2,7 +2,7 @@
 # All about conditional executions
 
 x = 11
-y = 11
+y = 14
 
 if x > 0: 
     print 'x is positive'
@@ -20,6 +20,12 @@ else :
 
 if x < 0:
 	pass    #need to handle negative values???
+
+
+# using <and>
+
+if 0 < x and x < y :
+    print 'x is a positive number and less than y'
 
 
 # -----------------------------------------------------------------
