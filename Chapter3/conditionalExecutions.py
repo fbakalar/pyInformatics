@@ -22,7 +22,7 @@ if x < 0:
 	pass    #need to handle negative values???
 
 
-
+# -----------------------------------------------------------------
 # Chained conditionals
 
 if x < y :
@@ -31,3 +31,36 @@ elif x > y :
 	print 'x is greater than y'
 else :
 	print 'x and y are equal'
+
+
+print '\n'
+
+prompt = '?>>'
+
+print 'what letter am I thinking of? \n '
+letter = raw_input(prompt)
+
+if letter == 'a' :
+    print 'nope'
+elif letter == 'b' :
+    print 'no sir'
+elif letter == 'c' :
+	print 'BINGO!!'
+
+#-------------------------------------------------------------------
+# Nested Conditionals
+
+if x == y:
+    print 'x and y are equal'
+else:
+    if x < y:
+        print 'x is less than y'
+    else:
+        print 'x is greater than y'
+
+
+
+
+
+
+
