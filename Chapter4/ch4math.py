@@ -1,3 +1,11 @@
+# ch4math.py
+# Q: what does 'import' do?
+# A: cretes a "module object"
+# the module object contains the functions
+# and variables defined in the module
+# these functions and variables can be accessed 
+# using dot.notation    
+
 import math
 
 print(math)

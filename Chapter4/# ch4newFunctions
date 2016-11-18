@@ -1,0 +1,11 @@
+# ch4newFunctions
+
+# function definition
+# a function definition specifies the name of 
+# a new function - and the statements to be
+# executed when the function is called
+
+#example
+def print_lyrics():
+    print("I'm a lumberjck and I'm okay")
+    print('I sleep all night annd I work all day.')
