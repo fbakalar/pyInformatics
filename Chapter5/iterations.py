@@ -5,21 +5,23 @@
 # -------- Looping Patterns Keywords -----------
 #
 #      
-#      while vs if
-#        - a while is an 'indefinite' loop
-#      continue
-#      for
-#        - a for is a 'definite' loop
+#      while loop:  generally is an indefinite loop
+#                   executes until a condition is FALSE
+#      
+#      for loop:  is a definite loop
 #        - executes through a definite set
-#      True
-#      break
+#      True key word:   ...
+#
+#      break key word: use break to exit a loop when you have
+#                      reached the exit condition
+#      continue key word: ends the current iteration and jumps...
 #
 ###################################################################
 
 
 # n is our iteration variable - 
 # which controls how many times the loop runs
-# note - this would be an infinite loop if i change 
+# note - this would be an infinite loop if I change 
 # n = n - 1   to  n = n + 1
 # or if I didn't change the iteration variable
 
@@ -75,3 +77,14 @@ for i in [5,4,3,2,1]:
     print i
 
 print 'Blastoff!'
+
+#-------------------------------
+
+friends = ['Joseph', 'Glenn', 'Sally']
+for x in friends:                      # note 'x' is called the iteration variable
+    print 'Happy New Year:', x
+print 'All Done with Friends2'
+
+
+
+
